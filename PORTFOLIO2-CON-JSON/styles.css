@@ -1,0 +1,292 @@
+
+/* ENCABEZADO PARTE*/
+html{
+    font-size: 62.4%;
+}
+    
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: white;
+
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7286D3;
+    justify-content: center;
+    height: 14rem;
+
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #ffff;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    
+}
+
+.encabezado-img{
+    height: 4rem;
+    padding-right: 1.2rem;
+}
+
+.encabezado-text{
+    font-size: 2rem;
+}
+
+
+nav a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    align-items: center;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.nav-link:hover{
+    color: #ffff;
+    background: #2B3467;
+    border-radius: 50px;
+    
+}
+
+
+.informacion{
+   margin: 5rem;
+    
+}
+
+.elemento-informacion{
+    padding: 2rem;
+    margin-bottom: 6rem;
+    background-color: #8EA7E9;
+    border-radius: 1rem;
+
+
+}
+
+.titulo-informacion{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+   
+}
+
+
+.titulo-informacion h1{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    color: #ffff;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+
+.texto-informacion p{
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 2rem;
+
+}
+
+
+.contactos{
+    align-items: center;
+    justify-content: center;
+}
+/* FORMULARIO*/
+
+
+.formulario{
+    width: 27rem;
+    margin: auto;
+    margin-top: 5rem;
+    position: relative;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 1.5);
+    padding: 2rem;
+    height: 70rem;
+    
+}
+
+.warning{
+    width: 20rem;
+    text-align: center;
+    margin: auto;
+    color: red;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    
+}
+
+.formulario__titulo{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+}
+
+.formulario__input, .formulario__label, .formulario__submit{
+    display: block;
+    width: 100%;
+    font-size: 2rem;
+
+}
+
+.formulario__input{
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 1.5);
+    margin-bottom: 4rem;
+    width: 23rem;
+    background: rgba(0, 0, 0, 0.05);
+    margin-top: 5rem;
+
+}
+
+.formulario__label{
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85px;
+    z-index: -20;
+    color: rgba(0, 0, 0, 0.5);
+    transition: all 0.2s;
+}
+
+.formulario__submit{
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 1.5rem 2rem;
+    cursor: pointer;
+    border: none;
+}
+
+.formulario__input:focus{
+    outline: 2px solid black;
+}
+
+.formulario__input:focus + .formulario__label{
+    margin-top: -140px;
+}
+
+.fijar{
+    margin-top: -165px;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    margin-top: 6rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #7286D3;
+    border-radius: 2rem;
+    height: 75rem;
+    width: 30rem;
+  
+}
+
+.redes__encabezado{
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: white;
+   
+
+}
+
+
+.red{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8EA7E9;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.red:hover{
+    background-color: #2B3467;
+}
+
+
+@media(min-width:400px){
+    .encabezado{
+        display: flex;
+        flex-direction: row;
+        height: 10rem;
+        justify-content: flex-start;
+        padding: 1rem;
+    }
+
+    .logo{
+        margin: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        margin-right: auto;
+    }
+
+    
+    .encabezado-text{
+        font-size: 2rem;
+    }
+    
+    nav a{
+        font-size: 1.5rem;
+        
+    }
+    
+    .informacion{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center
+    }
+
+    .elemento-informacion{
+        margin: 9rem;
+      
+    }
+
+    .texto-informacion p{
+        font-size: 2rem;
+    }
+
+    .formulario{
+        width: 80rem;
+  
+    }
+
+    .formulario__input{
+        margin-bottom: 4rem;
+        width: 76rem;
+
+    }
+
+    .redes{
+        margin-left: 35rem;
+        height: 25rem;
+        width: 60rem;
+      
+    }
+
+    .redes-en{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+

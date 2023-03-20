@@ -1,0 +1,37 @@
+{
+    "titulo" : "Mis proyectos",
+    "creador" : "Lucas Sánchez Cabrera",
+    "active" : true,
+    "proyectos" : [
+      {
+        "img": "./ztpxtbfhkp1af0guaylg.jpg",
+        "name" : "Order summary component",
+        "fecha" : 2022,
+        "lenguajes" : [
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "img": "./parjyu2ejag4sdrmbk2e.jpg",
+        "name" : "News homepage",
+        "fecha" : 2022,
+        "lenguajes" : [
+          "HTML",
+          "CSS",
+          "JavaSript"
+        ]
+      },
+      {
+        "img": "./desktop-preview.jpg",
+        "name" : "Fylo",
+        "fecha" : 2023,
+        "lenguajes" : [
+          "HTML",
+          "CSS",
+          "JavaSript"
+        ]
+      
+      }
+    ]
+  }
